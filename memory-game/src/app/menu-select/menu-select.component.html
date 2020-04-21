@@ -1,1 +1,13 @@
-<div></div>
+<div>
+  <label>{{ menu.label }}</label>
+  <div>
+    <i nz-icon nzType="clock-circle" nzTheme="outline"></i>
+    <div>{{ menu.time }} s</div>
+  </div>
+  <div>
+    <i nz-icon nzType="windows" nzTheme="outline"></i>
+    <div>{{ menu.rule.patterns }}</div>
+    <i nz-icon nzType="bg-colors" nzTheme="outline"></i>
+    <div>{{ menu.rule.colors }}</div>
+  </div>
+</div>

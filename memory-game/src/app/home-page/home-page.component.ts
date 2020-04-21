@@ -10,12 +10,27 @@ export class HomePageComponent implements OnInit {
   configuration: MenuOption[] = [
     {
       label: 'Beginner',
+      time: 300,
+      rule: {
+        colors: 1,
+        patterns: 4,
+      },
     },
     {
       label: 'Medium',
+      time: 240,
+      rule: {
+        colors: 2,
+        patterns: 4,
+      },
     },
     {
       label: 'Advance',
+      time: 150,
+      rule: {
+        colors: 4,
+        patterns: 4,
+      },
     },
   ];
 
